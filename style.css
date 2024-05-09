@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid black;
+    border-radius: 50px;
+    padding: 20px;
+    width: 500px;
+   margin: 100px auto;
+   font-size: 2rem;
+   font-weight: bold;
+}
+
+.con .display{
+    
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+    .con{width: 400px;}
+}
